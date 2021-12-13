@@ -1,0 +1,24 @@
+{
+	"name": "vzgcoders/lemuria",
+	"license": "MIT",
+	"authors": [
+        {
+            "name": "Valithor Obsidion",
+            "email": "valzargaming@gmail.com"
+        }
+    ],
+    "require": {
+        "team-reflex/discord-php": "dev-master",
+        "discord-php/slash": "dev-master"
+    },
+	"autoload": {
+        "files": [
+            "src/Lemuria/functions.php"
+        ],
+        "psr-4": {
+            "Lemuria\\": "src/Lemuria"
+        }
+    },
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
