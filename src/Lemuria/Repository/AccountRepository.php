@@ -207,7 +207,9 @@ class AccountRepository extends AbstractRepository
 	}
 
 	/*
-	* Placeholder.
+	* Alias for new.
+	*
+	** @param string $discord_id    The id of the discord account being registered.
 	*
 	* @return string
 	*/
@@ -221,10 +223,9 @@ class AccountRepository extends AbstractRepository
 
 	/**
      * Creates a new Account for the repository and saves it to the Lemuria servers.
-	 * This function is designed to take data from users.
+	 * This function is designed to take data from users via register().
      *
-     * @param string $species    The species of the account.
-     * @param string $name       The name of the account.
+     * @param string $discord_id    The id of the discord account being registered.
      *
      * @return string
      */

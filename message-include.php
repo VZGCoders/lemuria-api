@@ -82,7 +82,6 @@ Determine if messages should be processed
 *********************
 *********************
 */
-if ($author_guild_id != '887118559833112638') return;
 if (! $lemuria->server) return;
 
 /*
