@@ -56,6 +56,9 @@ $options = array(
 );
 $lemuria = new Lemuria\Lemuria($options);
 
+include_once 'webapi_functions.php';
+include 'webapi.php';
+
 try {
 	include 'rescue-try-include.php';
 	$lemuria->discord->on('error', function ($error) { //Handling of thrown errors
